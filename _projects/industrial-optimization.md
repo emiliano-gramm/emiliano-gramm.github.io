@@ -11,7 +11,7 @@ category: work
 **Tools:** Python (Pandas, NumPy), Data Visualization
 
 ### Project Overview
-[cite_start]At Eaton, I analyzed large-scale industrial datasets to identify operational trends and inefficiencies[cite: 16]. The goal was to translate raw production metrics into actionable insights for the engineering team.
+At Eaton, I analyzed large-scale industrial datasets to identify operational trends and inefficiencies. The goal was to translate raw production metrics into actionable insights for the engineering team.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -27,8 +27,8 @@ category: work
 
 ### Methodology
 My approach involved two key phases:
-1. [cite_start]**Data Collection:** I conducted shop-floor time studies to build a ground-truth predictive production model[cite: 17].
-2. [cite_start]**Analysis:** Using **Pandas** and **NumPy**, I processed time-series data to update system standards[cite: 20].
+1. **Data Collection:** I conducted shop-floor time studies to build a ground-truth predictive production model.
+2. **Analysis:** Using **Pandas** and **NumPy**, I processed time-series data to update system standards.
 
 ### Key Results
 The implementation of these new standards had a measurable impact on the plant's efficiency:
@@ -38,8 +38,8 @@ The implementation of these new standards had a measurable impact on the plant's
          <div class="p-3 mb-2 bg-light text-dark rounded">
             <h4>Impact Metrics</h4>
             <ul>
-                [cite_start]<li><strong>$300,000+</strong> in annual savings generated through operational optimizations.</li>
-                [cite_start]<li><strong>20% reduction</strong> in labor hours required for specific manufacturing lines.
+                <li><strong>$300,000+</strong> in annual savings generated through operational optimizations.</li>
+                <li><strong>20% reduction</strong> in labor hours required for specific manufacturing lines.
                 </li>
             </ul>
          </div>

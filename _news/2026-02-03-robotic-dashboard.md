@@ -5,10 +5,10 @@ inline: true
 related_posts: false
 ---
 
-[cite_start]**Currently Engineering:** A real-time robotic vision dashboard at **CUIP**.
+**Currently Engineering:** A real-time robotic vision dashboard at **CUIP**.
 
-[cite_start]I am implementing a **ROS2** and **CUDA-accelerated** pipeline to visualize telemetry and video feeds for a fleet of heterogeneous robots, including the **Clearpath Jackal** and **Hiwonder JetAuto**.
+I am implementing a **ROS2** and **CUDA-accelerated** pipeline to visualize telemetry and video feeds for a fleet of heterogeneous robots, including the **Clearpath Jackal** and **Hiwonder JetAuto**.
 
 **Current Sprint Focus:**
-* [cite_start]Resolving CPU bottlenecks in image processing by implementing multi-processing to ensure continuous GPU saturation on NVIDIA Jetson hardware.
-* [cite_start]Applying **Federated Learning** strategies (combining FedProx and FedAdam) to improve ADE/FDE metrics for trajectory prediction.
+* Resolving CPU bottlenecks in image processing by implementing multi-processing to ensure continuous GPU saturation on NVIDIA Jetson hardware.
+* Applying **Federated Learning** strategies (combining FedProx and FedAdam) to improve ADE/FDE metrics for trajectory prediction.

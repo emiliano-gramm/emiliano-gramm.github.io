@@ -504,6 +504,11 @@ ninja.data = [{
           description: "Optimizing manufacturing workflows to generate $300k+ in annual savings.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/industrial-optimization/";
+            },},{id: "projects-real-time-robotic-vision-dashboard",
+          title: 'Real-Time Robotic Vision Dashboard',
+          description: "Edge AI implementation on NVIDIA Jetson using ROS2 and CUDA.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ros2-vision-dashboard/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",

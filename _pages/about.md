@@ -29,12 +29,12 @@ latest_posts:
 
 I am a **Machine Learning Researcher** and Data Science student at the [University of Tennessee Chattanooga](https://www.utc.edu/), specializing in Computer Vision and Robotics.
 
-My work bridges the gap between deep learning models and real-world hardware. [cite_start]Currently, I am a researcher at **CUIP** (Center for Urban Informatics and Progress), where I build real-time intersection monitoring systems on **NVIDIA Jetson** platforms using **ROS2** and **CUDA**[cite: 8, 11]. My primary focus is optimizing edge deployment to resolve image-processing bottlenecks and ensure continuous GPU saturation for low-latency inference.
+My work bridges the gap between deep learning models and real-world hardware. [cite_start]Currently, I am a researcher at **CUIP** (Center for Urban Informatics and Progress), where I build real-time intersection monitoring systems on **NVIDIA Jetson** platforms using **ROS2** and **CUDA**. My primary focus is optimizing edge deployment to resolve image-processing bottlenecks and ensure continuous GPU saturation for low-latency inference.
 
-Previously, I worked as an Engineering Intern at **Eaton Corporation**, where I leveraged industrial data analytics to build predictive production models. [cite_start]This work resulted in updating system standards that reduced labor hours by 20% and generated over **$300,000 in annual savings**[cite: 14, 16, 17].
+Previously, I worked as an Engineering Intern at **Eaton Corporation**, where I leveraged industrial data analytics to build predictive production models. [cite_start]This work resulted in updating system standards that reduced labor hours by 20% and generated over **$300,000 in annual savings**.
 
-[cite_start]I am technically proficient in **PyTorch**, **TensorRT**, and **YOLO** architectures, with a strong interest in **Federated Learning** strategies (specifically Flowchain/FedProx) for trajectory prediction[cite: 12, 19].
+[cite_start]I am technically proficient in **PyTorch**, **TensorRT**, and **YOLO** architectures, with a strong interest in **Federated Learning** strategies (specifically Flowchain/FedProx) for trajectory prediction.
 
 ### Education
-* **B.S. Data Science** | [cite_start]University of Tennessee Chattanooga (Expected May 2026) [cite: 6, 9]
-* **A.S. Computer Science** | [cite_start]Cleveland State Community College [cite: 6]
+* **B.S. Data Science** | [cite_start]University of Tennessee Chattanooga (Expected May 2026)
+* **A.S. Computer Science** | [cite_start]Cleveland State Community College

@@ -38,8 +38,9 @@ The implementation of these new standards had a measurable impact on the plant's
          <div class="p-3 mb-2 bg-light text-dark rounded">
             <h4>Impact Metrics</h4>
             <ul>
-                [cite_start]<li><strong>$300,000+</strong> in annual savings generated through operational optimizations[cite: 16].</li>
-                [cite_start]<li><strong>20% reduction</strong> in labor hours required for specific manufacturing lines[cite: 17].</li>
+                [cite_start]<li><strong>$300,000+</strong> in annual savings generated through operational optimizations.</li>
+                [cite_start]<li><strong>20% reduction</strong> in labor hours required for specific manufacturing lines.
+                </li>
             </ul>
          </div>
     </div>

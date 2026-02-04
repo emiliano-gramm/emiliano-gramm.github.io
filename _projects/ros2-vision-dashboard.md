@@ -32,13 +32,13 @@ I am currently architecting a real-time computer vision dashboard for a heteroge
 The core challenge was processing high-bandwidth video streams (RTSP) without inducing latency that would break real-time control.
 
 1.  **CUDA & TensorRT Optimization:**
-    I deployed Federated-trained models on **NVIDIA Jetson** hardware. [cite_start]By converting PyTorch models to **TensorRT** engines, I significantly reduced inference time[cite: 11, 19].
+    I deployed Federated-trained models on **NVIDIA Jetson** hardware. [cite_start]By converting PyTorch models to **TensorRT** engines, I significantly reduced inference time.
 
 2.  **Resolving Bottlenecks:**
-    Initial profiling revealed a CPU bottleneck during image pre-processing. [cite_start]I implemented a **multi-processing** architecture to offload data handling, ensuring continuous GPU saturation and reliable real-time performance[cite: 11].
+    Initial profiling revealed a CPU bottleneck during image pre-processing. [cite_start]I implemented a **multi-processing** architecture to offload data handling, ensuring continuous GPU saturation and reliable real-time performance.
 
 3.  **Federated Learning Integration:**
-    To improve trajectory prediction, I helped design a strategy combining **FedProx** and **FedAdam**. [cite_start]This approach improved ADE and FDE metrics by ~8% compared to baseline results[cite: 12].
+    To improve trajectory prediction, I helped design a strategy combining **FedProx** and **FedAdam**. [cite_start]This approach improved ADE and FDE metrics by ~8% compared to baseline results.
 
 ### System Architecture
 The dashboard connects to the robot fleet via **ROS2 nodes**, subscribing to camera topics and publishing inference results for the navigation stack.

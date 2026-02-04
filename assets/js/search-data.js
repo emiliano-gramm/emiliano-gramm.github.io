@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-cite-start-currently-engineering-a-real-time-robotic-vision-dashboard-at-cuip-cite-start-i-am-implementing-a-ros2-and-cuda-accelerated-pipeline-to-visualize-telemetry-and-video-feeds-for-a-fleet-of-heterogeneous-robots-including-the-clearpath-jackal-and-hiwonder-jetauto-current-sprint-focus-cite-start-resolving-cpu-bottlenecks-in-image-processing-by-implementing-multi-processing-to-ensure-continuous-gpu-saturation-on-nvidia-jetson-hardware-cite-start-applying-federated-learning-strategies-combining-fedprox-and-fedadam-to-improve-ade-fde-metrics-for-trajectory-prediction",
-          title: '[cite_start]Currently Engineering: A real-time robotic vision dashboard at CUIP. [cite_start]I am implementing a...',
+            },},{id: "news-currently-engineering-a-real-time-robotic-vision-dashboard-at-cuip-i-am-implementing-a-ros2-and-cuda-accelerated-pipeline-to-visualize-telemetry-and-video-feeds-for-a-fleet-of-heterogeneous-robots-including-the-clearpath-jackal-and-hiwonder-jetauto-current-sprint-focus-resolving-cpu-bottlenecks-in-image-processing-by-implementing-multi-processing-to-ensure-continuous-gpu-saturation-on-nvidia-jetson-hardware-applying-federated-learning-strategies-combining-fedprox-and-fedadam-to-improve-ade-fde-metrics-for-trajectory-prediction",
+          title: 'Currently Engineering: A real-time robotic vision dashboard at CUIP. I am implementing a...',
           description: "",
           section: "News",},{id: "projects-industrial-predictive-analytics",
           title: 'Industrial Predictive Analytics',

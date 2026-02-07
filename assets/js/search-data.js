@@ -435,75 +435,63 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-currently-engineering-a-real-time-robotic-vision-dashboard-at-cuip-i-am-implementing-a-ros2-and-cuda-accelerated-pipeline-to-visualize-telemetry-and-video-feeds-for-a-fleet-of-heterogeneous-robots-including-the-clearpath-jackal-and-hiwonder-jetauto-current-sprint-focus-resolving-cpu-bottlenecks-in-image-processing-by-implementing-multi-processing-to-ensure-continuous-gpu-saturation-on-nvidia-jetson-hardware-applying-federated-learning-strategies-combining-fedprox-and-fedadam-to-improve-ade-fde-metrics-for-trajectory-prediction",
+      },{id: "news-currently-engineering-a-real-time-robotic-vision-dashboard-at-cuip-i-am-implementing-a-ros2-and-cuda-accelerated-pipeline-to-visualize-telemetry-and-video-feeds-for-a-fleet-of-heterogeneous-robots-including-the-clearpath-jackal-and-hiwonder-jetauto-current-sprint-focus-resolving-cpu-bottlenecks-in-image-processing-by-implementing-multi-processing-to-ensure-continuous-gpu-saturation-on-nvidia-jetson-hardware-applying-federated-learning-strategies-combining-fedprox-and-fedadam-to-improve-ade-fde-metrics-for-trajectory-prediction",
           title: 'Currently Engineering: A real-time robotic vision dashboard at CUIP. I am implementing a...',
           description: "",
-          section: "News",},{id: "projects-industrial-predictive-analytics",
+          section: "News",},{id: "projects-sketch-to-style-quickdraw-inspired",
+          title: 'Sketch‑to‑Style (QuickDraw‑Inspired)',
+          description: "Near real‑time sketch recognition with stylized rendering.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Sketch-to-Art/";
+            },},{id: "projects-real-time-edge-vision-inference",
+          title: 'Real-Time Edge Vision Inference',
+          description: "Optimized on-device inference with NVIDIA Jetson and TensorRT.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/edge-vision-inference/";
+            },},{id: "projects-industrial-predictive-analytics",
           title: 'Industrial Predictive Analytics',
           description: "Optimizing manufacturing workflows to generate $300k+ in annual savings.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/industrial-optimization/";
             },},{id: "projects-real-time-robotic-vision-dashboard",
           title: 'Real-Time Robotic Vision Dashboard',
-          description: "Edge AI implementation on NVIDIA Jetson using ROS2 and CUDA.",
+          description: "Multi-robot dashboard for low-latency, multi-sensor visualization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ros2-vision-dashboard/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%65%6D%69%6C%69%61%6E%6F.%67%72%61%6D%6D@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://www.linkedin.com/in/emiliano-de-la-garza-villarreal", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://github.com/emiliano-gramm", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-whatsapp',
+        title: 'whatsapp',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://wa.me/470-358-5294", "_blank");
         },
       },{
       id: 'light-theme',

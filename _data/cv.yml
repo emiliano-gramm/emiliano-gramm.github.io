@@ -34,6 +34,14 @@ experience:
       - Analyzed large-scale industrial datasets to identify operational trends and inefficiencies, translating raw metrics into actionable insights to generate over $300,000 in annual savings.
       - Conducted shop-floor time studies to build a predictive production model, updating system standards that reduced labor hours by 20%.
 
+projects:
+  - name: Live Drawing Recognition
+    details:
+      - Developed a Python data pipeline for a real-time drawing recognition system, handling the download and processing of image data (.npy files) for a CNN.
+      - Implemented a PyTorch dataloader with on-the-fly data augmentation using `torchvision.transforms` (rotation, shifting) to improve model generalization without increasing the dataset size.
+      - Optimized data handling by consolidating image classes into a single shuffled dataset, accelerating read times and improving model training convergence.
+      - Analyzed trade-offs between .npy (fast, low-res) and .ndjson (high-res, more processing) data formats to balance performance and image quality for real-time application constraints.
+
 skills:
   - name: Machine Learning & Deep Learning
     details:

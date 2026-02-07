@@ -1,17 +1,19 @@
 ---
 layout: page
 title: Real-Time Robotic Vision Dashboard
-description: Edge AI implementation on NVIDIA Jetson using ROS2 and CUDA.
-img: assets/img/ros2_placeholder.jpg
+description: Multi-robot dashboard for low-latency, multi-sensor visualization.
+img: assets/img/ros2.png
 importance: 2
 category: work
 ---
 
 **Role:** Machine Learning Researcher, CUIP
-**Tech Stack:** ROS2, NVIDIA Jetson, CUDA, PyTorch, TensorRT
+**Tech Stack:** ROS2, Python, Linux, Robotics
 
 ### Project Overview
-I am currently architecting a real-time computer vision dashboard for a heterogeneous fleet of robots. The system is designed to perform low-latency inference on edge devices, enabling autonomous navigation and teleoperation.
+I am currently architecting a real-time dashboard for a heterogeneous fleet of robots.
+The system provides low-latency visualization and monitoring across multiple sensor
+modalities.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,19 +31,24 @@ I am currently architecting a real-time computer vision dashboard for a heteroge
 </div>
 
 ### Technical Implementation
-The core challenge was processing high-bandwidth video streams (RTSP) without inducing latency that would break real-time control.
+The core challenge is delivering synchronized, low-latency views from multiple
+robots without overwhelming the network or operator.
 
-1.  **CUDA & TensorRT Optimization:**
-    I deployed Federated-trained models on **NVIDIA Jetson** hardware. By converting PyTorch models to **TensorRT** engines, I significantly reduced inference time.
+1.  **Multi-robot messaging:**
+    I organize ROS2 topics by robot ID and sensor type to keep streams clean and
+    easy to subscribe to for downstream tools.
 
-2.  **Resolving Bottlenecks:**
-    Initial profiling revealed a CPU bottleneck during image pre-processing. I implemented a **multi-processing** architecture to offload data handling, ensuring continuous GPU saturation and reliable real-time performance.
+2.  **Latency-aware visualization:**
+    The UI prioritizes critical feeds and uses efficient transport to keep the
+    dashboard responsive under load.
 
-3.  **Federated Learning Integration:**
-    To improve trajectory prediction, I helped design a strategy combining **FedProx** and **FedAdam**. This approach improved ADE and FDE metrics by ~8% compared to baseline results.
+3.  **Extensible architecture:**
+    New robots or sensors can be added by registering a ROS2 node and metadata
+    entry, keeping onboarding fast.
 
 ### System Architecture
-The dashboard connects to the robot fleet via **ROS2 nodes**, subscribing to camera topics and publishing inference results for the navigation stack.
+The dashboard connects to the robot fleet via **ROS2 nodes**, subscribing to
+camera and telemetry topics and publishing status summaries for operators.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -49,5 +56,5 @@ The dashboard connects to the robot fleet via **ROS2 nodes**, subscribing to cam
     </div>
 </div>
 <div class="caption">
-    High-level overview of the ROS2 nodes and the Federated Learning pipeline.
+    High-level overview of the ROS2 nodes and the dashboard data flow.
 </div>

@@ -2,7 +2,7 @@
 layout: page
 title: Industrial Predictive Analytics
 description: Optimizing manufacturing workflows to generate $300k+ in annual savings.
-img: assets/img/prof_pic.jpg # Temporary placeholder until you upload a project logo
+img: assets/img/eaton_chart.jpg # Temporary placeholder until you upload a project logo
 importance: 1
 category: work
 ---
@@ -27,8 +27,7 @@ At Eaton, I analyzed large-scale industrial datasets to identify operational tre
 
 ### Methodology
 My approach involved two key phases:
-1. **Data Collection:** I conducted shop-floor time studies to build a ground-truth predictive production model.
-2. **Analysis:** Using **Pandas** and **NumPy**, I processed time-series data to update system standards.
+1. **Data Collection:** I conducted shop-floor time studies to analyze current production rates at Eaton and identify saving opportunities.
 
 ### Key Results
 The implementation of these new standards had a measurable impact on the plant's efficiency:

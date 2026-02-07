@@ -27,14 +27,24 @@ latest_posts:
   limit: 3
 ---
 
-I am a **Machine Learning Researcher** and Data Science student at the [University of Tennessee Chattanooga](https://www.utc.edu/), specializing in Computer Vision and Robotics.
+I am a **Machine Learning Engineer** focused on deploying reliable, real-time computer vision systems in robotics and embedded environments. At the [University of Tennessee Chattanooga](https://www.utc.edu/), I work with **CUIP** (Center for Urban Informatics and Progress) to build edge‑AI systems for robotics and intersection monitoring.
 
 My work bridges the gap between deep learning models and real-world hardware. Currently, I am a researcher at **CUIP** (Center for Urban Informatics and Progress), where I build real-time intersection monitoring systems on **NVIDIA Jetson** platforms using **ROS2** and **CUDA**. My primary focus is optimizing edge deployment to resolve image-processing bottlenecks and ensure continuous GPU saturation for low-latency inference.
 
-Previously, I worked as an Engineering Intern at **Eaton Corporation**, where I leveraged industrial data analytics to build predictive production models. This work resulted in updating system standards that reduced labor hours by 20% and generated over **$300,000 in annual savings**.
+I am currently building a **multi‑robot visualization dashboard** that fuses heterogeneous sensor streams into a centralized, low‑latency view. I am also working on a creative AI tool **Sketch recognition to stylized rendering** where quick sketches will transform to real art.
 
-I am technically proficient in **PyTorch**, **TensorRT**, and **YOLO** architectures, with a strong interest in **Federated Learning** strategies (specifically Flowchain/FedProx) for trajectory prediction.
+Previously, I worked as an Engineering Intern at **Eaton Corporation**, where I built analytics tools to optimize production standards, resulting in a **20% reduction in labor hours** and **$300k+ in annual savings**.
 
-### Education
-* **B.S. Data Science** | University of Tennessee Chattanooga (Expected May 2026)
-* **A.S. Computer Science** | Cleveland State Community College
+I am proficient in **PyTorch**, **TensorRT**, and **YOLO** architectures, with a strong interest in **Federated Learning** strategies (specifically Flowchain/FedProx) for trajectory prediction.
+
+**Core strengths**
+- Real‑time CV pipelines for robotics and edge devices
+- Model optimization: TensorRT, CUDA, quantization, profiling
+- Applied ML: time‑series analytics, classical + deep vision
+- Systems: ROS2, multi‑process data pipelines, low‑latency inference
+
+**Current focus**
+- Multi‑robot perception dashboard (real‑time sensor fusion + visualization)
+- Sketch recognition + stylized rendering (near real‑time creative AI)
+
+If you are hiring for ML engineering roles, feel free to reach out via email or connect on LinkedIn. I am happy to share demos and code.

@@ -2,19 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Emiliano de la Garza Villarreal # the website title (if blank, full name will be used instead)
+title: Machine Learning Engineer Continuosly Learning # the website title (if blank, full name will be used instead)
 first_name: Emiliano
 middle_name:
 last_name: de la Garza Villarreal
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  I try to answer emails within 24 hours.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Machine Learning Researcher and Data Science student specializing in Computer Vision, Edge Devices, and Federated Learning. Experienced in building real-time inference systems with NVIDIA Jetson and ROS2.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: machine learning, computer vision, data science, robotics, pytorch, yolo, federated learning, ros2, nvidia jetson, real-time inference, data engineering, deep learning, edge devices, mlops, ai, artificial intelligence, ml engineer, research, student
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

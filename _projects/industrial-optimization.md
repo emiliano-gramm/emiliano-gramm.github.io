@@ -3,7 +3,7 @@ layout: page
 title: Industrial Predictive Analytics
 description: Optimizing manufacturing workflows to generate $300k+ in annual savings.
 img: assets/img/eaton_chart.jpg # Temporary placeholder until you upload a project logo
-importance: 1
+importance: 5
 category: work
 ---
 

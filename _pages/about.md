@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Machine Learning Researcher @ CUIP</b> <br> Data Science B.S. Student @ UTC
+subtitle: >-
+  <b>Machine Learning Researcher @ CUIP</b> <br> Data Science B.S. Student @ UTC
 
 profile:
   align: right

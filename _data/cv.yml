@@ -1,75 +1,59 @@
 cv:
   name: Emiliano de la Garza Villarreal
-  label: Machine Learning Researcher
-  address:
-    city: Cleveland
-    region: TN
+  job_title: Machine Learning Researcher
+  location: Cleveland, TN
   email: emiliano.gramm@gmail.com
   phone: +1 470 358 5294
   website: https://emiliano-gramm.github.io
   summary: >
     Machine Learning Researcher and Data Science student specializing in Computer Vision, Edge Devices, and Federated Learning. Experienced in building real-time inference systems with NVIDIA Jetson and ROS2.
-  sections:
-    Education:
-      - institution: University of Tennessee Chattanooga
-        area: (B.S.) Data Science
-        start_date: 2024-08
-        end_date: 2026-05
-      - institution: Cleveland State Community College
-        area: (A.S) Computer Science
-        start_date: 2022-08
-        end_date: 2023-12
 
-    Experience:
-      - company: CUIP
-        position: Machine Learning Researcher
-        start_date: 2023-04
-        end_date: Present
-        highlights:
-          - Built a real-time intersection monitoring system on NVIDIA Jetson using ROS2 and CUDA to deploy a federated-trained model, implementing multi-processing to resolve CPU image-processing bottlenecks and ensure continuous GPU saturation for reliable, low-latency inference.
-          - Achieved state-of-the-art trajectory prediction by designing a federated learning strategy within a Flowchain model, combining FedProx and FedAdam to improve ADE and FDE metrics by ~8% compared to baseline results.
-          - Developed a custom YOLO crash detection model by gathering open-source data and applying transfer learning, then improved accuracy and recall using Mosaic and MixUp augmentation.
-      - company: Eaton Corporation
-        position: Engineering Intern
-        start_date: 2023-12
-        end_date: Present
-        highlights:
-          - Analyzed large-scale industrial datasets to identify operational trends and inefficiencies, translating raw metrics into actionable insights to generate over $300,000 in annual savings.
-          - Conducted shop-floor time studies to build a predictive production model, updating system standards that reduced labor hours by 20%.
+  education:
+    - institution: University of Tennessee Chattanooga
+      area: (B.S.) Data Science
+      start_date: 2024-08
+      end_date: 2026-05
+    - institution: Cleveland State Community College
+      area: (A.S) Computer Science
+      start_date: 2022-08 # A start date is recommended for the PDF generator
+      end_date: 2023-12
 
-    Projects:
-      - name: Live Drawing Recognition
-        highlights:
-          - Developed a Python data pipeline for real-time drawing recognition, handling download and processing of .npy image data for a CNN.
-          - Implemented a PyTorch dataloader with on-the-fly augmentation using torchvision transforms to improve generalization without increasing dataset size.
-          - Optimized data handling by consolidating image classes into a single shuffled dataset, accelerating read times and improving training convergence.
-          - Analyzed trade-offs between .npy (fast, low-res) and .ndjson (high-res, more processing) formats to balance performance and image quality for real-time constraints.
+  experience:
+    - company: CUIP
+      position: Machine Learning Researcher
+      start_date: 2023-04
+      end_date: present
+      details:
+        - Built a real-time intersection monitoring system on NVIDIA Jetson using ROS2 and CUDA to deploy a Federated-trained model, implementing multi-processing to resolve CPU image-processing bottlenecks and ensure continuous GPU saturation for reliable, low latency, real-time inference.
+        - Achieved state-of-the-art (SOTA) trajectory prediction by designing a novel federated learning strategy within a Flowchain model, combining FedProx and FedAdam to improve ADE and FDE metrics ~8% compared to baseline results.
+        - Developed a custom YOLO crash detection model by gathering open-source data and applying transfer learning to existing weights, then iteratively improved accuracy and recall by experimenting with data augmentation techniques like Mosaic and MixUp to expand system capabilities.
+    - company: Eaton Corporation
+      position: Engineering Intern
+      start_date: 2023-12
+      end_date: present
+      details:
+        - Analyzed large-scale industrial datasets to identify operational trends and inefficiencies, translating raw metrics into actionable insights to generate over $300,000 in annual savings.
+        - Conducted shop-floor time studies to build a predictive production model, updating system standards that reduced labor hours by 20%.
 
-    Skills:
-      - name: Machine Learning and Deep Learning
-        keywords:
-          - PyTorch
-          - Computer Vision (YOLO)
-          - TensorRT
-          - Federated Learning
-      - name: Data Engineering and Processing
-        keywords:
-          - RTSP video pipelines
-          - Time-series analysis
-          - Pandas
-          - NumPy
-          - OpenCV
-      - name: Programming and Development Tools
-        keywords:
-          - Python
-          - Multiprocessing and threading
-          - C++
-          - Java
-          - Git
-          - Linux
+  projects:
+    - name: Live Drawing Recognition
+      details:
+        - Developed a Python data pipeline for a real-time drawing recognition system, handling the download and processing of image data (.npy files) for a CNN.
+        - Implemented a PyTorch dataloader with on-the-fly data augmentation using `torchvision.transforms` (rotation, shifting) to improve model generalization without increasing the dataset size.
+        - Optimized data handling by consolidating image classes into a single shuffled dataset, accelerating read times and improving model training convergence.
+        - Analyzed trade-offs between .npy (fast, low-res) and .ndjson (high-res, more processing) data formats to balance performance and image quality for real-time application constraints.
 
-    Languages:
-      - name: English
-        summary: Native
-      - name: Spanish
-        summary: Fluent
+  skills:
+    - name: Machine Learning & Deep Learning
+      details:
+        - Proficient in developing and optimizing models with PyTorch, specializing in distributed systems, Computer Vision (YOLO), and real-time inference using NVIDIA TensorRT.
+    - name: Data Engineering & Processing
+      details:
+        - Experienced in building real-time data pipelines for video stream processing (RTSP) and time-series analysis using Pandas, NumPy, and OpenCV.
+    - name: Programming & Development Tools
+      details:
+        - Advanced proficiency in Python (including multiprocessing & threading), Elementary proficiency in C++ and Java, general Data Structures and algorithms, with sufficient knowledge in version control (Git), and decent skills with Linux system terminal.
+
+  languages:
+    - name: English
+    - name: Spanish

@@ -15,7 +15,7 @@ cv:
       end_date: 2026-05
     - institution: Cleveland State Community College
       area: (A.S) Computer Science
-      start_date:
+      start_date: 2022-08 # A start date is recommended for the PDF generator
       end_date: 2023-12
 
   experience:

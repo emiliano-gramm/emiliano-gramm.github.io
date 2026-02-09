@@ -2,4 +2,5 @@ github_users:
   - emiliano-gramm
 
 github_repos:
-  - emiliano-gramm/LiveDrawingRecognition
+  - name: emiliano-gramm/LiveDrawingRecognition
+    img: /assets/img/LiveDrawingRecognitionThumbnail.png

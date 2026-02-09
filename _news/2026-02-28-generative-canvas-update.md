@@ -9,6 +9,8 @@ tags:
 - System Design
 - TensorRT
 - WebGPU
+inline: true
+related_posts: false
 ---
 
 Development on the Live Drawing project is entering an exciting new phase, evolving beyond simple classification into a **Real-Time, Scene-Aware Generative Canvas**. The goal is to create a system with under 100ms of latency from the user's brushstroke to a fully synthesized, high-fidelity image.

@@ -48,12 +48,10 @@ ninja.data = [{
       },{id: "news-currently-engineering-a-real-time-robotic-vision-dashboard-at-cuip-i-am-implementing-a-ros2-and-cuda-accelerated-pipeline-to-visualize-telemetry-and-video-feeds-for-a-fleet-of-heterogeneous-robots-including-the-clearpath-jackal-and-hiwonder-jetauto-current-sprint-focus-resolving-cpu-bottlenecks-in-image-processing-by-implementing-multi-processing-to-ensure-continuous-gpu-saturation-on-nvidia-jetson-hardware-applying-federated-learning-strategies-combining-fedprox-and-fedadam-to-improve-ade-fde-metrics-for-trajectory-prediction",
           title: 'Currently Engineering: A real-time robotic vision dashboard at CUIP. I am implementing a...',
           description: "",
-          section: "News",},{id: "news-project-update-architecting-a-real-time-generative-canvas",
-          title: 'Project Update: Architecting a Real-Time Generative Canvas',
+          section: "News",},{id: "news-development-on-the-live-drawing-project-is-entering-an-exciting-new-phase-evolving-beyond-simple-classification-into-a-real-time-scene-aware-generative-canvas-the-goal-is-to-create-a-system-with-under-100ms-of-latency-from-the-user-s-brushstroke-to-a-fully-synthesized-high-fidelity-image-this-leap-in-performance-and-capability-is-guided-by-a-new-technical-architecture-client-side-scene-intelligence-we-are-moving-the-initial-scene-understanding-directly-into-the-browser-an-instance-segmentation-model-running-on-webgpu-via-onnx-will-analyze-the-composition-of-the-drawing-in-real-time-this-allows-the-system-to-understand-complex-overlapping-objects-a-crucial-step-beyond-recognizing-single-items-high-performance-generative-backend-the-server-will-leverage-state-of-the-art-techniques-like-sdxl-lightning-and-streamdiffusion-the-entire-pipeline-will-be-compiled-with-tensorrt-and-use-fp8-quantization-targeting-a-sub-50ms-inference-budget-to-make-real-time-generation-possible-a-novel-hybrid-data-pipeline-to-teach-the-model-to-understand-complex-occluded-sketches-we-are-engineering-a-unique-synthetic-data-pipeline-it-fuses-two-sources-edge-maps-from-the-coco-dataset-to-learn-realism-and-occlusion-and-a-custom-compositor-engine-that-uses-quickdraw-vector-data-to-generate-infinite-resolution-training-scenes-with-complex-object-interactions-this-ambitious-direction-moves-the-project-from-a-drawing-recognizer-to-a-true-creative-partner-setting-the-stage-for-a-new-class-of-interactive-ai-experiences",
+          title: 'Development on the Live Drawing project is entering an exciting new phase, evolving...',
           description: "An update on the evolution of LiveDrawingRecognition towards a next-generation, scene-aware generative AI system.",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026-02-28-generative-canvas-update/";
-            },},{id: "projects-real-time-edge-vision-inference",
+          section: "News",},{id: "projects-real-time-edge-vision-inference",
           title: 'Real-Time Edge Vision Inference',
           description: "Optimized on-device inference with NVIDIA Jetson and TensorRT.",
           section: "Projects",handler: () => {

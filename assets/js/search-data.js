@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "To Quickly look at Personal Projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -396,7 +396,12 @@ ninja.data = [{
       },{id: "news-currently-engineering-a-real-time-robotic-vision-dashboard-at-cuip-i-am-implementing-a-ros2-and-cuda-accelerated-pipeline-to-visualize-telemetry-and-video-feeds-for-a-fleet-of-heterogeneous-robots-including-the-clearpath-jackal-and-hiwonder-jetauto-current-sprint-focus-resolving-cpu-bottlenecks-in-image-processing-by-implementing-multi-processing-to-ensure-continuous-gpu-saturation-on-nvidia-jetson-hardware-applying-federated-learning-strategies-combining-fedprox-and-fedadam-to-improve-ade-fde-metrics-for-trajectory-prediction",
           title: 'Currently Engineering: A real-time robotic vision dashboard at CUIP. I am implementing a...',
           description: "",
-          section: "News",},{id: "projects-real-time-edge-vision-inference",
+          section: "News",},{id: "news-project-update-architecting-a-real-time-generative-canvas",
+          title: 'Project Update: Architecting a Real-Time Generative Canvas',
+          description: "An update on the evolution of LiveDrawingRecognition towards a next-generation, scene-aware generative AI system.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-02-28-generative-canvas-update/";
+            },},{id: "projects-real-time-edge-vision-inference",
           title: 'Real-Time Edge Vision Inference',
           description: "Optimized on-device inference with NVIDIA Jetson and TensorRT.",
           section: "Projects",handler: () => {
@@ -406,6 +411,11 @@ ninja.data = [{
           description: "Optimizing manufacturing workflows to generate $300k+ in annual savings.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/industrial-optimization/";
+            },},{id: "projects-real-time-generative-canvas",
+          title: 'Real-Time Generative Canvas',
+          description: "An end-to-end system for real-time, scene-aware generative art, featuring a client-side segmentation model and a TensorRT-optimized diffusion backend.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/live-drawing-recognition/";
             },},{id: "projects-real-time-robotic-vision-dashboard",
           title: 'Real-Time Robotic Vision Dashboard',
           description: "Multi-robot dashboard for low-latency, multi-sensor visualization.",

@@ -33,6 +33,14 @@
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.repository }}">
+    {% if include.repository.img or include.repository["img"] or repository.img %}
+      <img
+        class="repo-thumbnail mb-2 w-100"
+        alt="{{ include.repository }} thumbnail"
+        src="{{ include.repository.img | default: include.repository["img"] | default: repository.img }}"
+        style="max-height:180px;object-fit:contain;"
+      >
+    {% endif %}
     <img
       class="only-light w-100"
       alt="{{ include.repository }}"

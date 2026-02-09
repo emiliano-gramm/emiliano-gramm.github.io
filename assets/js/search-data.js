@@ -396,12 +396,7 @@ ninja.data = [{
       },{id: "news-currently-engineering-a-real-time-robotic-vision-dashboard-at-cuip-i-am-implementing-a-ros2-and-cuda-accelerated-pipeline-to-visualize-telemetry-and-video-feeds-for-a-fleet-of-heterogeneous-robots-including-the-clearpath-jackal-and-hiwonder-jetauto-current-sprint-focus-resolving-cpu-bottlenecks-in-image-processing-by-implementing-multi-processing-to-ensure-continuous-gpu-saturation-on-nvidia-jetson-hardware-applying-federated-learning-strategies-combining-fedprox-and-fedadam-to-improve-ade-fde-metrics-for-trajectory-prediction",
           title: 'Currently Engineering: A real-time robotic vision dashboard at CUIP. I am implementing a...',
           description: "",
-          section: "News",},{id: "projects-sketch-to-style-quickdraw-inspired",
-          title: 'Sketch‑to‑Style (QuickDraw‑Inspired)',
-          description: "Near real‑time sketch recognition with stylized rendering.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Sketch-to-Art/";
-            },},{id: "projects-real-time-edge-vision-inference",
+          section: "News",},{id: "projects-real-time-edge-vision-inference",
           title: 'Real-Time Edge Vision Inference',
           description: "Optimized on-device inference with NVIDIA Jetson and TensorRT.",
           section: "Projects",handler: () => {

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Project Update: Architecting a Real-Time Generative Canvas"
-date: 2026-02-28 10:00:00 +0000 # You can adjust the date
+date: 2026-01-28 10:00:00 +0000 # You can adjust the date
 description: "An update on the evolution of LiveDrawingRecognition towards a next-generation, scene-aware generative AI system."
 tags:
 - Machine Learning

@@ -28,6 +28,8 @@ latest_posts:
   limit: 3
 ---
 
+EVERYTHING IN HERE IS WORK IN PROGRESS, I HAVE NOT FINISHED THIS WEBSITE!
+
 Hi, I’m Emiliano.
 
 To me, programming is about creating your own solutions to real-world problems. If the current building blocks do not fit the solution, then I code my own blocks to exactly fit the situation.

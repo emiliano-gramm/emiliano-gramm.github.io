@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Edge Vision Inference
 description: Optimized on-device inference with NVIDIA Jetson and TensorRT.
-img: /assets/img/Edge_device.gif
+img: /assets/img/edge_device.gif
 importance: 1
 category: work
 ---

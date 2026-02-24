@@ -15,14 +15,11 @@ At Eaton, I analyzed large-scale industrial datasets to identify operational tre
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eaton_chart.jpg" title="Data Analysis" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/eaton_floor.jpg" title="Shop Floor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Visualizing production bottlenecks (Left) and optimizing shop-floor workflows (Right).
+    Generic shop floor of manufacturing plan to give a mental image of where the time study was done.
 </div>
 
 ### Methodology
@@ -34,7 +31,7 @@ The implementation of these new standards had a measurable impact on the plant's
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-         <div class="p-3 mb-2 bg-light text-dark rounded">
+         <div class="p-3 mb-2 rounded">
             <h4>Impact Metrics</h4>
             <ul>
                 <li><strong>$300,000+</strong> in annual savings generated through operational optimizations.</li>

@@ -1,19 +1,17 @@
 ---
 layout: page
-title: Real-Time Robotic Vision Dashboard
-description: Multi-robot dashboard for low-latency, multi-sensor visualization.
+title: "Swarm Sense: A Web-Based Robotics Fleet Command Center"
+description: A high-performance, web-based dashboard for multi-robot command and control, built on Foxglove Studio and a custom data export extension.
 img: assets/img/ros2.png
 importance: 2
 category: work
 ---
 
 **Role:** Machine Learning Researcher, CUIP
-**Tech Stack:** ROS2, Python, Linux, Robotics
+**Tech Stack:** ROS2, Foxglove, WebSockets, React, TypeScript, Python, Linux
 
 ### Project Overview
-I am currently architecting a real-time dashboard for a heterogeneous fleet of robots.
-The system provides low-latency visualization and monitoring across multiple sensor
-modalities.
+I am currently engineering **Swarm-Sense**, a high-performance, web-based fleet command interface designed to interact directly with ROS 2 robotics systems. The system leverages **Foxglove Studio** to provide near-zero latency visualization and monitoring for a fleet of up to 5 robots simultaneously. The core objective is to build a reliable, scalable, and extensible platform for real-time operations and post-mission data analysis.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,30 +29,13 @@ modalities.
 </div>
 
 ### Technical Implementation
-The core challenge is delivering synchronized, low-latency views from multiple
-robots without overwhelming the network or operator.
+The architecture is designed for high-performance, web-native robotics interaction, addressing challenges of network reliability and data management.
 
-1.  **Multi-robot messaging:**
-    I organize ROS2 topics by robot ID and sensor type to keep streams clean and
-    easy to subscribe to for downstream tools.
+1.  **WebSocket-Based Communication**: The architecture moves away from raw DDS/UDP, which is often unreliable on managed WiFi networks. Instead, it uses `foxglove_bridge` to serve all ROS 2 data over a robust **WebSocket (TCP)** connection, ensuring stable communication.
 
-2.  **Latency-aware visualization:**
-    The UI prioritizes critical feeds and uses efficient transport to keep the
-    dashboard responsive under load.
+2.  **High-Performance Web Visualization**: To achieve sub-100ms video latency, the system uses a hardware-accelerated H.264 streaming pipeline via `foxglove_compressed_video_transport`. The frontend, **Foxglove Studio**, runs entirely in the browser, eliminating the need for a custom desktop application.
 
-3.  **Extensible architecture:**
-    New robots or sensors can be added by registering a ROS2 node and metadata
-    entry, keeping onboarding fast.
+3.  **Custom Data Export Extension**: A key component is a custom **Foxglove Panel** built with React and TypeScript. This extension buffers telemetry data in real-time and allows operators to export mission data directly to a `.mat` file for analysis in MATLAB.
 
 ### System Architecture
-The dashboard connects to the robot fleet via **ROS2 nodes**, subscribing to
-camera and telemetry topics and publishing status summaries for operators.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/architecture_diagram.jpg" title="System Architecture" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    High-level overview of the ROS2 nodes and the dashboard data flow.
-</div>
+The system uses a modern server-client architecture where the "backend" is the **Foxglove Bridge** running on each robot, and the "frontend" is **Foxglove Studio** running in the operator's web browser. This decouples the visualization from the robot's core processes and leverages a powerful, industry-standard tool for the user interface. A custom React-based extension runs within Studio to provide specialized functionality like the MATLAB data export.

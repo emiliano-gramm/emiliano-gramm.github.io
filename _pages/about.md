@@ -28,11 +28,11 @@ latest_posts:
   limit: 3
 ---
 
-EVERYTHING IN HERE IS WORK IN PROGRESS, I HAVE NOT FINISHED THIS WEBSITE!
+(Website is a work in progress...)
 
 Hi, I’m Emiliano.
 
-To me, programming is about creating your own solutions to real-world problems. If the current building blocks do not fit the solution, then I code my own blocks to exactly fit the situation.
+To me, programming is about creating your own solutions to real-world problems. If the current methods are not what I am looking for then I create my own methods.
 
 That drive to build from the ground up defines my work as a **Machine Learning Engineer**. Whether I'm developing **Swarm-Sense** to visualize multi-robot systems or optimizing inference on **NVIDIA Jetsons**, I love the creative challenge of engineering solutions that fit perfectly into real-world hardware.
 

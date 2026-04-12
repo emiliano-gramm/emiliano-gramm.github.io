@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Reading & implementing:** Working through *Programming Massively Parallel Processors* and put the first CUDA chapter into practice by implementing a simple vector-add kernel. Code: [SimpleParallelVectorAdditionCUDA](https://github.com/emiliano-gramm/SimpleParallelVectorAdditionCUDA).
+**Reading & implementing:** Working through *Programming Massively Parallel Processors* and put the first and second CUDA chapters into practice by implementing a simple vector-add kernel. Code: [SimpleParallelVectorAdditionCUDA](https://github.com/emiliano-gramm/SimpleParallelVectorAdditionCUDA).

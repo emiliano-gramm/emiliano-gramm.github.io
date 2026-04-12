@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-implementations",
-          title: "implementations",
-          description: "A growing collection of research-driven implementations and writeups.",
+  },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/implementations/";
+            window.location.href = "/books/";
           },
-        },{id: "nav-reading-implementing",
-          title: "reading / implementing",
-          description: "Research paper syntheses with related implementation notes and links.",
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/reading-implementing/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -52,16 +52,25 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-reading-note-nvidia-distillation-aware-quantization",
-          title: 'Reading Note: NVIDIA Distillation-Aware Quantization',
-          description: "Started reading NVIDIA&#39;s Distillation-Aware Quantization paper; synthesis and implementation writeup coming soon.",
-          section: "News",handler: () => {
-              window.location.href = "/news/Distillation-Aware-Quantization-NVidia/";
-            },},{id: "projects-distillation-aware-quantization-planned-implementation",
-          title: 'Distillation-Aware Quantization (Planned Implementation)',
-          description: "Planned reproduction and adaptation of NVIDIA&#39;s Distillation-Aware Quantization paper.",
+      },{id: "books-programming-massively-parallel-processors",
+          title: 'Programming Massively Parallel Processors',
+          description: "Hands-on introduction to parallel programming on GPUs; the CUDA vector-add exercise on this site follows the early chapters.",
+          section: "Books",handler: () => {
+              window.location.href = "/books/programming-massively-parallel-processors/";
+            },},{id: "news-currently-engineering-swarm-sense-a-web-based-robotics-fleet-command-center-at-cuip-i-am-architecting-a-high-performance-fleet-command-interface-that-uses-foxglove-studio-for-visualization-the-system-streams-data-from-ros-2-robots-over-websockets-replacing-raw-dds-udp-for-improved-reliability-on-managed-networks-current-sprint-focus-deploying-foxglove-bridge-on-the-robot-fleet-to-serve-data-over-websockets-implementing-a-hardware-accelerated-h-264-video-pipeline-foxglove-compressed-video-transport-to-achieve-amp-lt-100ms-latency-developing-a-custom-foxglove-panel-in-react-to-buffer-telemetry-and-export-it-to-matlab-mat-format",
+          title: 'Currently Engineering: Swarm-Sense, a web-based robotics fleet command center at CUIP. I am...',
+          description: "",
+          section: "News",},{id: "news-i-m-beginning-to-explore-the-next-evolution-of-the-live-drawing-project-with-a-vision-to-transform-it-from-a-simple-classifier-into-a-real-time-scene-aware-generative-canvas-the-long-term-goal-is-to-build-a-system-capable-of-sub-100ms-latency-from-brushstroke-to-a-fully-synthesized-high-fidelity-image-the-research-is-centered-around-a-potential-new-architecture-client-side-scene-intelligence-one-key-area-of-research-is-moving-scene-understanding-into-the-browser-the-plan-is-to-use-a-lightweight-instance-segmentation-model-running-on-webgpu-via-onnx-to-analyze-the-drawing-s-composition-in-real-time-this-would-allow-the-system-to-understand-complex-overlapping-objects-a-crucial-step-beyond-recognizing-single-items-high-performance-generative-backend-for-the-server-i-m-investigating-how-to-leverage-state-of-the-art-techniques-like-sdxl-lightning-and-streamdiffusion-the-idea-is-to-compile-the-entire-pipeline-with-tensorrt-and-fp8-quantization-which-could-potentially-achieve-a-sub-50ms-inference-budget-making-real-time-generation-feasible-a-novel-hybrid-data-pipeline-a-significant-part-of-the-project-will-be-engineering-a-synthetic-data-pipeline-to-train-a-model-that-understands-complex-sketches-the-approach-i-m-exploring-involves-fusing-two-sources-edge-maps-from-the-coco-dataset-to-learn-realism-and-occlusion-and-a-custom-compositor-engine-that-uses-quickdraw-vector-data-to-generate-infinite-resolution-training-scenes-this-new-direction-is-still-in-the-early-planning-and-prototyping-stages-but-it-sets-a-long-term-vision-for-moving-the-project-from-a-drawing-recognizer-to-a-true-creative-partner",
+          title: 'I’m beginning to explore the next evolution of the Live Drawing project, with...',
+          description: "Exploring the future of the Live Drawing project: a vision for a real-time, scene-aware generative AI system.",
+          section: "News",},{id: "news-reading-amp-amp-implementing-working-through-programming-massively-parallel-processors-and-put-the-first-cuda-chapter-into-practice-by-implementing-a-simple-vector-add-kernel-code-simpleparallelvectoradditioncuda",
+          title: 'Reading &amp;amp;amp; implementing: Working through Programming Massively Parallel Processors and put the first...',
+          description: "",
+          section: "News",},{id: "projects-cuda-parallel-vector-addition",
+          title: 'CUDA parallel vector addition',
+          description: "First CUDA kernel from Programming Massively Parallel Processors—host/device memory, kernel launch, and element-wise addition.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/distillation-aware-quantization-implementation/";
+              window.location.href = "/projects/cuda-parallel-vector-addition/";
             },},{id: "projects-real-time-edge-vision-inference",
           title: 'Real-Time Edge Vision Inference',
           description: "Optimized on-device inference with NVIDIA Jetson and TensorRT.",

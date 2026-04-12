@@ -210,7 +210,6 @@ exclude:
   - _includes/repository/
   - _posts/
   - _pages/blog.md
-  - _pages/books.md
   - _pages/profiles.md
 
 keep_files:

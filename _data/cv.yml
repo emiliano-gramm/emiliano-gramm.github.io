@@ -38,12 +38,14 @@ cv:
           - Conducted shop-floor time studies to build a predictive production model, updating system standards that reduced labor hours by 20%.
 
     Projects:
-      - name: Live Drawing Recognition
+      - name: Swarm-Sense (ROS 2 & Distributed Systems)
         highlights:
-          - Developed a Python data pipeline for real-time drawing recognition, handling download and processing of .npy image data for a CNN.
-          - Implemented a PyTorch dataloader with on-the-fly augmentation using torchvision transforms to improve generalization without increasing dataset size.
-          - Optimized data handling by consolidating image classes into a single shuffled dataset, accelerating read times and improving training convergence.
-          - Analyzed trade-offs between .npy (fast, low-res) and .ndjson (high-res, more processing) formats to balance performance and image quality for real-time constraints.
+          - Architected a high-performance ROS 2 Humble fleet interface to monitor 5+ robots simultaneously via Foxglove Bridge and Server-Client WebSockets
+          - Reduced video latency to sub-100ms by implementing hardware-accelerated H.264 transport and 500kbps bitrate caps for bandwidth-constrained environments
+          - Developed a custom TypeScript/React extension for edge-side telemetry caching and automated data export to MATLAB (.mat) format.
+      - name: CUDA parallel vector addition
+        highlights:
+          - Tutorial from *Programming Massively Parallel Processors*—element-wise float addition with `cudaMalloc` / `cudaMemcpy`, a bounds-checked `__global__` kernel, and CMake + `CUDA::cudart` ([repo](https://github.com/emiliano-gramm/SimpleParallelVectorAdditionCUDA)).
 
     Skills:
       - name: Machine Learning and Deep Learning
@@ -64,6 +66,7 @@ cv:
           - Python
           - Multiprocessing and threading
           - C++
+          - CUDA
           - Java
           - Git
           - Linux

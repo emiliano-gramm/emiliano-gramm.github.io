@@ -2,5 +2,4 @@ github_users:
   - emiliano-gramm
 
 github_repos:
-    name: emiliano-gramm/LiveDrawingRecognition
-    img: /assets/img/LiveDrawingRecognitionThumbnail.png
+  - emiliano-gramm/SimpleParallelVectorAdditionCUDA

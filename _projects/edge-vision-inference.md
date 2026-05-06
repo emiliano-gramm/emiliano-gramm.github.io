@@ -15,6 +15,8 @@ I built a real-time computer vision pipeline for edge deployment, targeting low
 latency inference on NVIDIA Jetson platforms. The system supports video streams
 and produces reliable results under tight compute and power constraints.
 
+{% include figure.liquid loading="eager" path="/assets/video/edge-vision-inference.gif" title="Edge vision inference demo" class="img-fluid rounded z-depth-1" %}
+
 ### Technical Implementation
 The primary challenge was keeping inference latency low while maintaining
 accuracy and stability on embedded hardware.

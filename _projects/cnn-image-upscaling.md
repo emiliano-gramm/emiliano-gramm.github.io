@@ -4,6 +4,7 @@ title: CNN Image Upscaling
 description: CPSC 5440 project implementing an encoder-decoder CNN to upscale grayscale images from 28x28 to 56x56.
 importance: 2
 category: fun
+github: https://github.com/emiliano-gramm/CNN_Image_Upscaling
 ---
 
 **Context:** Machine Learning coursework project focused on practical CNN design for super-resolution style reconstruction.

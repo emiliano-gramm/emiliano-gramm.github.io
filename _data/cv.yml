@@ -40,11 +40,11 @@ cv:
     Projects:
       - name: Swarm-Sense (ROS 2 & Distributed Systems)
         highlights:
-          - Architected a high-performance ROS 2 Humble fleet interface to monitor 5+ robots simultaneously via Foxglove Bridge and Server-Client WebSockets
-          - Reduced video latency to sub-100ms by implementing hardware-accelerated H.264 transport and 500kbps bitrate caps for bandwidth-constrained environments
-          - Created a Docker environment to facilitate team collaboration, ensuring high reliability and easy build-up for the multi-robot telemetry dashboard.
-          - Significantly improved documentation with reproducible run steps to ensure maintainability and ease of use for collaborators.
-          - Implemented comprehensive error handling and unit testing throughout development to ensure robustness and quality of the multi-robot telemetry dashboard.
+          - Architected a high-performance ROS 2 Humble fleet interface to monitor 5+ robots simultaneously via Foxglove Bridge and server-client WebSockets.
+          - Reduced video latency to sub-100ms by implementing hardware-accelerated H.264 transport and 500kbps bitrate caps for bandwidth-constrained environments.
+          - Created a Docker environment to improve team collaboration, reliability, and ease of extension for the multi-robot telemetry dashboard.
+          - Improved project documentation with reproducible run steps to increase maintainability and onboarding speed.
+          - Implemented comprehensive error handling and unit tests across the stack to improve robustness and overall software quality.
       - name: Character-Level Sequence Modeling (LSTM Exploration)
         highlights:
           - Implemented a two-layer PyTorch LSTM for next-character prediction using fixed 50-step context windows and one-hot encoded inputs.

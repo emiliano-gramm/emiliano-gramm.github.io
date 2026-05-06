@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Project milestone:** Completed **Swarm-Sense**, our multi-robot ROS 2 telemetry dashboard. Final outcomes include stable WebSocket-based monitoring for 5+ robots, sub-100ms video latency using hardware-accelerated H.264 transport, a reproducible Docker environment for team deployment, stronger documentation for onboarding, and improved robustness through comprehensive error handling and unit testing.
+**Project completed:** Swarm-Sense, our multi-robot telemetry dashboard at **CUIP**, is now finished with production-ready WebSocket ROS 2 integration, sub-100ms H.264 video streaming, and robust testing/documentation for long-term maintainability. Repo: [Swarm-Sense-Multi-Robot-Dashboard](https://github.com/emiliano-gramm/Swarm-Sense-Multi-Robot-Dashboard).

@@ -12,28 +12,13 @@ github: https://github.com/emiliano-gramm/Swarm-Sense-Multi-Robot-Dashboard
 **Tech Stack:** ROS2, Foxglove, WebSockets, React, TypeScript, Python, Linux
 
 <div class="alert alert-success" role="alert">
-  <strong>Status:</strong> Completed. The multi-robot telemetry dashboard has finished development and reached production-ready project goals.
+  Status: Completed. The multi-robot telemetry dashboard has finished development and reached production-ready project goals.
 </div>
 
 ### Project Overview
 **Swarm-Sense** is a completed high-performance, web-based fleet command interface designed to interact directly with ROS 2 robotics systems. The system leverages **Foxglove Studio** to provide near-zero latency visualization and monitoring for a fleet of up to 5 robots simultaneously. The project objective was to deliver a reliable, scalable, and extensible platform for real-time operations and post-mission data analysis.
 
 {% include figure.liquid loading="eager" path="/assets/video/swarm-sense-small-demo.gif" title="Swarm-Sense dashboard demo" class="img-fluid rounded z-depth-1" %}
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/jackal.jpg" title="Clearpath Jackal" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Clearpath Jackal</div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/jetauto.jpg" title="Hiwonder JetAuto" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Hiwonder JetAuto</div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/myagv.jpg" title="Elephant Robotics myAGV" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Elephant Robotics myAGV</div>
-    </div>
-</div>
 
 ### Technical Implementation
 The architecture was designed for high-performance, web-native robotics interaction, addressing challenges of network reliability and data management.

@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >-
-  <b>Machine Learning Researcher @ CUIP</b> <br> Data Science B.S. Student @ UTC
+  <b>Assistant Researcher @ CUIP</b> <br> M.S. Data Science and AI @ UTC
 
 profile:
   align: right
@@ -11,7 +11,7 @@ profile:
   image_circular: false # set to true if you want a circle crop
   more_info: >
     <p>Chattanooga, TN</p>
-    <p>Machine Learning & Robotics</p>
+    <p>Machine Learning, Computer Vision, and Edge Deployment</p>
     <p>CUIP Researcher</p>
 
 selected_papers: false # Set to true if you add papers to _bibliography/papers.bib later
@@ -28,14 +28,12 @@ latest_posts:
   limit: 3
 ---
 
-(Website is a work in progress...)
-
 Hi, I’m Emiliano.
 
-To me, programming is about creating your own solutions to real-world problems. If the current methods are not what I am looking for then I create my own methods.
+I see programming as a way to build practical solutions to real-world problems. When existing methods do not fit the goal, I design and implement new ones.
 
-That drive to build from the ground up defines my work as a **Machine Learning Engineer**. Whether I'm developing **Swarm-Sense** to visualize multi-robot systems or optimizing inference on **NVIDIA Jetsons**, I love the creative challenge of engineering solutions that fit perfectly into real-world hardware.
+That builder mindset defines my work as a **Machine Learning Engineer**. From developing **Swarm-Sense** for multi-robot visualization to optimizing inference on **NVIDIA Jetsons**, I enjoy engineering systems that are reliable, efficient, and grounded in real hardware constraints.
 
-Currently, I’m a researcher at [UTC](https://www.utc.edu/) (**Center for Urban Informatics and Progress**), bridging the gap between deep learning models and edge deployment.
+I am currently a researcher at [UTC](https://www.utc.edu/) (**Center for Urban Informatics and Progress**), where I focus on bridging deep learning research and edge deployment.
 
-**Off the clock:** I apply the same analytical mindset to my physical health. I’m an avid fitness enthusiast who loves diving into the latest hypertrophy research to optimize my training.
+**Off the clock:** I apply the same analytical mindset to fitness, especially hypertrophy-focused training and evidence-based performance optimization.

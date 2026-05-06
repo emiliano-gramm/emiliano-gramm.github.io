@@ -48,6 +48,11 @@ cv:
           - Implemented a two-layer PyTorch LSTM for next-character prediction using fixed 50-step context windows and one-hot encoded inputs.
           - Built a full preprocessing and training pipeline on a cleaned Sherlock Holmes corpus, using shifted targets with Adam + CrossEntropy over 100 epochs.
           - Solved key training bottlenecks by moving from overlapping to non-overlapping windows to reduce memory usage, then flattening sequence tensors to satisfy loss-shape requirements; studied RNN/GRU concepts in the same module for architectural context.
+      - name: CNN Image Upscaling
+        highlights:
+          - Built an encoder-decoder CNN in PyTorch to upscale grayscale images from 28x28 to 56x56 using Conv2d, MaxPool2d, and Upsample blocks.
+          - Trained for 100 epochs with BCE loss and Adam, reaching final losses of 0.5625 (train) and 0.5651 (test).
+          - Improved experimentation workflow by caching processed datasets as NumPy arrays and resolving tensor-shape formatting for stable batched training.
       - name: CUDA parallel vector addition
         highlights:
           - Tutorial from *Programming Massively Parallel Processors*—element-wise float addition with `cudaMalloc` / `cudaMemcpy`, a bounds-checked `__global__` kernel, and CMake + `CUDA::cudart` ([repo](https://github.com/emiliano-gramm/SimpleParallelVectorAdditionCUDA)).

@@ -8,7 +8,7 @@ category: fun
 github: https://github.com/emiliano-gramm/SimpleParallelVectorAdditionCUDA
 ---
 
-**Context:** Study exercise while reading *Programming Massively Parallel Processors* (H&P / Kirk & Hwu).
+**Context:** Study exercise while reading _Programming Massively Parallel Processors_ (H&P / Kirk & Hwu).
 
 **Stack:** C++23, CUDA, CMake, CLion
 

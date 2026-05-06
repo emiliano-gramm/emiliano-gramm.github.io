@@ -11,6 +11,7 @@ category: work
 **Tools:** Python (Pandas, NumPy), Data Visualization
 
 ### Project Overview
+
 At Eaton, I analyzed large-scale industrial datasets to identify operational trends and inefficiencies. The goal was to translate raw production metrics into actionable insights for the engineering team.
 
 <div class="row">
@@ -23,10 +24,13 @@ At Eaton, I analyzed large-scale industrial datasets to identify operational tre
 </div>
 
 ### Methodology
+
 My approach involved two key phases:
+
 1. **Data Collection:** I conducted shop-floor time studies to analyze current production rates at Eaton and identify saving opportunities.
 
 ### Key Results
+
 The implementation of these new standards had a measurable impact on the plant's efficiency:
 
 <div class="row justify-content-sm-center">

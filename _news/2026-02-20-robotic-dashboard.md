@@ -10,6 +10,7 @@ related_posts: false
 I am architecting a high-performance fleet command interface that uses **Foxglove Studio** for visualization. The system streams data from ROS 2 robots over **WebSockets**, replacing raw DDS/UDP for improved reliability on managed networks.
 
 **Current Sprint Focus:**
-*   Deploying `foxglove_bridge` on the robot fleet to serve data over WebSockets.
-*   Implementing a hardware-accelerated H.264 video pipeline (`foxglove_compressed_video_transport`) to achieve <100ms latency.
-*   Developing a custom **Foxglove Panel** in React to buffer telemetry and export it to MATLAB `.mat` format.
+
+- Deploying `foxglove_bridge` on the robot fleet to serve data over WebSockets.
+- Implementing a hardware-accelerated H.264 video pipeline (`foxglove_compressed_video_transport`) to achieve <100ms latency.
+- Developing a custom **Foxglove Panel** in React to buffer telemetry and export it to MATLAB `.mat` format.

@@ -16,11 +16,13 @@ github: https://github.com/emiliano-gramm/Swarm-Sense-Multi-Robot-Dashboard
 </div>
 
 ### Project Overview
+
 **Swarm-Sense** is a completed high-performance, web-based fleet command interface designed to interact directly with ROS 2 robotics systems. The system leverages **Foxglove Studio** to provide near-zero latency visualization and monitoring for a fleet of up to 5 robots simultaneously. The project objective was to deliver a reliable, scalable, and extensible platform for real-time operations and post-mission data analysis.
 
 {% include figure.liquid loading="eager" path="/assets/video/swarm-sense-small-demo.gif" title="Swarm-Sense dashboard demo" class="img-fluid rounded z-depth-1" %}
 
 ### Technical Implementation
+
 The architecture was designed for high-performance, web-native robotics interaction, addressing challenges of network reliability and data management.
 
 1.  **WebSocket-Based Communication**: The architecture moved away from raw DDS/UDP, which is often unreliable on managed WiFi networks. Instead, it uses `foxglove_bridge` to serve all ROS 2 data over a robust **WebSocket (TCP)** connection, ensuring stable communication.
@@ -38,4 +40,5 @@ The architecture was designed for high-performance, web-native robotics interact
 5. Implemented comprehensive error handling and unit testing throughout development to improve robustness and overall quality.
 
 ### System Architecture
+
 The system uses a modern server-client architecture where the "backend" is the **Foxglove Bridge** running on each robot, and the "frontend" is **Foxglove Studio** running in the operator's web browser. This decouples the visualization from the robot's core processes and leverages a powerful, industry-standard tool for the user interface. A custom React-based extension runs within Studio to provide specialized functionality like the MATLAB data export.

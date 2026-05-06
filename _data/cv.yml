@@ -1,14 +1,8 @@
 cv:
   name: Emiliano de la Garza Villarreal
-  label: Machine Learning Researcher
-  address:
-    city: Cleveland
-    region: TN
   email: emiliano.gramm@gmail.com
   phone: +1 470 358 5294
   website: https://emiliano-gramm.github.io
-  summary: >
-    Machine Learning Researcher and Data Science student specializing in Computer Vision, Edge Devices, and Federated Learning. Experienced in building real-time inference systems with NVIDIA Jetson and ROS2.
   sections:
     Education:
       - institution: University of Tennessee Chattanooga
@@ -64,28 +58,12 @@ cv:
           - Tutorial from *Programming Massively Parallel Processors*—element-wise float addition with `cudaMalloc` / `cudaMemcpy`, a bounds-checked `__global__` kernel, and CMake + `CUDA::cudart` ([repo](https://github.com/emiliano-gramm/SimpleParallelVectorAdditionCUDA)).
 
     Skills:
-      - name: Machine Learning and Deep Learning
-        keywords:
-          - PyTorch
-          - Computer Vision (YOLO)
-          - TensorRT
-          - Federated Learning
-      - name: Data Engineering and Processing
-        keywords:
-          - RTSP video pipelines
-          - Time-series analysis
-          - Pandas
-          - NumPy
-          - OpenCV
-      - name: Programming and Development Tools
-        keywords:
-          - Python
-          - Multiprocessing and threading
-          - C++
-          - CUDA
-          - Java
-          - Git
-          - Linux
+      - label: Machine Learning and Deep Learning
+        details: PyTorch, Computer Vision (YOLO), TensorRT, Federated Learning
+      - label: Data Engineering and Processing
+        details: RTSP video pipelines, Time-series analysis, Pandas, NumPy, OpenCV
+      - label: Programming and Development Tools
+        details: Python, Multiprocessing and threading, C++, CUDA, Java, Git, Linux
 
     Languages:
       - name: English

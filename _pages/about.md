@@ -7,7 +7,7 @@ subtitle: >-
 
 profile:
   align: right
-  image: /assets/img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # set to true if you want a circle crop
   more_info: >
     <p>Chattanooga, TN</p>

@@ -43,6 +43,11 @@ cv:
           - Architected a high-performance ROS 2 Humble fleet interface to monitor 5+ robots simultaneously via Foxglove Bridge and Server-Client WebSockets
           - Reduced video latency to sub-100ms by implementing hardware-accelerated H.264 transport and 500kbps bitrate caps for bandwidth-constrained environments
           - Developed a custom TypeScript/React extension for edge-side telemetry caching and automated data export to MATLAB (.mat) format.
+      - name: Character-Level Sequence Modeling (LSTM Exploration)
+        highlights:
+          - Implemented a two-layer PyTorch LSTM for next-character prediction using fixed 50-step context windows and one-hot encoded inputs.
+          - Built a full preprocessing and training pipeline on a cleaned Sherlock Holmes corpus, using shifted targets with Adam + CrossEntropy over 100 epochs.
+          - Solved key training bottlenecks by moving from overlapping to non-overlapping windows to reduce memory usage, then flattening sequence tensors to satisfy loss-shape requirements; studied RNN/GRU concepts in the same module for architectural context.
       - name: CUDA parallel vector addition
         highlights:
           - Tutorial from *Programming Massively Parallel Processors*—element-wise float addition with `cudaMalloc` / `cudaMemcpy`, a bounds-checked `__global__` kernel, and CMake + `CUDA::cudart` ([repo](https://github.com/emiliano-gramm/SimpleParallelVectorAdditionCUDA)).
